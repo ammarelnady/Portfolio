@@ -806,6 +806,47 @@ body {
   flex-wrap: wrap;
 }
 
+/*  */
+
+.btn-outline {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 22px;
+    border-radius: 30px;
+    border: 2px solid;
+    background: transparent;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.btn-outline .icon {
+    width: 22px;
+    height: 22px;
+}
+
+/* Brand Colors */
+.btn-linkedin { color:#0A66C2; border-color:#0A66C2; }
+.btn-github   { color:#fff; border-color:#fff; }
+.btn-upwork   { color:#6FDA44; border-color:#6FDA44; }
+.btn-khamsat  { color:#FF9800; border-color:#FF9800; }
+.btn-mostaql  { color:#1E88E5; border-color:#1E88E5; }
+.btn-kafiil   { color:#2ECC71; border-color:#2ECC71; }
+
+/* Hover Effect */
+.btn-outline:hover {
+    color:#000;
+    transform: translateY(-2px);
+}
+
+.btn-linkedin:hover { background:#0A66C2; color:#fff; }
+.btn-github:hover   { background:#fff; color:#000; }
+.btn-upwork:hover   { background:#6FDA44; }
+.btn-khamsat:hover  { background:#FF9800; }
+.btn-mostaql:hover  { background:#1E88E5; color:#fff; }
+.btn-kafiil:hover   { background:#2ECC71; }
+
 /* Footer */
 .footer {
   border-top: 1px solid var(--border);
