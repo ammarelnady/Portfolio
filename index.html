@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Machine Learning Engineer building intelligent AI systems and end-to-end ML pipelines. View my projects, skills, and experience.">
+    <meta name="generator" content="v0.app">
+    <title>Ammar Ahmed Elnady - Machine Learning Engineer Portfolio</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" href="/icon-light-32x32.png" media="(prefers-color-scheme: light)">
+    <link rel="icon" href="/icon-dark-32x32.png" media="(prefers-color-scheme: dark)">
+    <link rel="icon" href="/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/apple-icon.png">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navigation" class="nav">
+        <div class="nav-container">
+            <div class="nav-content">
+                <div class="nav-logo">About Me</div>
+                <div class="nav-menu" id="navMenu">
+                    <button class="nav-item active" data-section="home">Home</button>
+                    <button class="nav-item" data-section="about">About Me</button>
+                    <button class="nav-item" data-section="skills">Skills</button>
+                    <button class="nav-item" data-section="background">Background</button>
+                    <button class="nav-item" data-section="projects">Projects</button>
+                    <button class="nav-item" data-section="contact">Contact</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="main-wrapper">
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="container-xl">
+                <div class="hero-grid">
+                    <!-- Left Content -->
+                    <div class="hero-content">
+                        <div class="hero-text">
+                            <span class="badge badge-outline">About Me</span>
+                            <div>
+                                <h1 class="hero-title">
+                                    <span class="text-foreground">Hello,</span>
+                                    <br>
+                                    <span class="text-primary">I'm Ammar</span>
+                                </h1>
+                            </div>
+                        </div>
+
+
+                        <p class="hero-description">Architecting state-of-the-art Machine Learning pipelines and highly scalable AI systems.
+Delivering end-to-end MLOps solutions to ensure peak algorithmic performance in production.</p>
+                        <p class="hero-description">أُهندس نماذج تعلم آلي متطورة وأنظمة ذكاء اصطناعي قابلة للتطوير باستخدام أحدث الخوارزميات
+أقود دورة حياة البيانات بالكامل لضمان دقة النماذج وسرعة استجابتها في بيئة الإنتاج</p>
+
+                        <div class="hero-buttons">
+                            <button class="btn btn-outline" data-scroll="projects">Projects</button>
+
+                            <!-- <button class="btn btn-primary" id="downloadCV">Download CV</button> -->
+
+                            <a target="_blank" href="public\my_cv.pdf" download="Ammar_CV.pdf" >
+                                <button class="btn btn-primary" id="downloadCV">Download CV</button>
+                            </a>
+
+                        </div>
+                    </div>
+
+                    <!-- Right Profile Image -->
+                    <div class="hero-image">
+                        <div class="profile-container">
+                            <div class="profile-ring"></div>
+                            <img src="public/me.jpeg" alt="Ammar Ahmed Elnady" class="profile-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="container-xl">
+                <div class="about-grid">
+                    <!-- Left -->
+                    <div class="about-left">
+                        <h2 class="about-title">
+                            Hello,
+                            <br>
+                            <span class="text-primary">I'm Ammar!</span>
+                        </h2>
+                    </div>
+
+                    <!-- Right -->
+                    <div class="about-right">
+                        <p class="about-description">
+                            Machine Learning Engineer with a strong foundation in AI and Data Science. Experienced in
+                            building end-to-end machine learning pipelines including data preprocessing, feature
+                            engineering, model training, evaluation, and deployment. Focused on scalable, explainable,
+                            and production-ready ML systems. Strong problem-solving skills and ability to communicate
+                            technical concepts clearly.
+                        </p>
+
+                        <!-- Contact Methods -->
+                        <div class="contact-methods">
+                            <div class="contact-item">
+                                <svg class="icon icon-primary" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                                </svg>
+                                <a href="tel:+201027164530" class="contact-link">+20 102 7164530</a>
+                            </div>
+                            <div class="contact-item">
+                                <svg class="icon icon-primary" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                    <polyline points="22,6 12,13 2,6"></polyline>
+                                </svg>
+                                <a href="mailto:ammarelnady63@gmail.com" class="contact-link">ammarelnady63@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <!-- Social Links -->
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/ammar-nady" target="_blank" rel="noopener noreferrer" class="social-icon">
+                                <svg class="icon icon-primary" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                    <rect x="2" y="9" width="4" height="12"></rect>
+                                    <circle cx="4" cy="4" r="2"></circle>
+                                </svg>
+                            </a>
+                            <a href="https://github.com/ammarelnady" target="_blank" rel="noopener noreferrer" class="social-icon">
+                                <svg class="icon icon-primary" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section">
+            <div class="container-xl">
+                <div class="section-header">
+                    <div class="section-badge">
+                        <span class="badge-text">Technical Skills</span>
+                    </div>
+                    <h2 class="section-title">Technical Skills</h2>
+                </div>
+
+                <div class="skills-grid">
+                    <!-- Programming Languages -->
+                    <div class="skill-category">
+                        <div class="skill-header">
+                            <div class="skill-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="16 18 22 12 16 6"></polyline>
+                                    <polyline points="8 6 2 12 8 18"></polyline>
+                                </svg>
+                            </div>
+                            <h3 class="skill-title">Programming Languages</h3>
+                        </div>
+                        <ul class="skill-list">
+                            <li><span class="bullet">•</span><span>Python</span></li>
+                            <li><span class="bullet">•</span><span>SQL</span></li>
+                            <li><span class="bullet">•</span><span>C++</span></li>
+                            <li><span class="bullet">•</span><span>JavaScript</span></li>
+                        </ul>
+                    </div>
+
+                    <!-- Machine Learning & AI -->
+                    <div class="skill-category">
+                        <div class="skill-header">
+
+                            <div class="skill-icon" style="width: 70px; height: 70px; border-radius: 50%; background-color: #FFC107; display: flex; align-items: center; justify-content: center;">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="#0f111a" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" width="65" height="65">
+                                    <path d="M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z"/>
+                                    <path d="M12 5a3 3 0 1 1 5.997.125 4 4 0 0 1 2.526 5.77 4 4 0 0 1-.556 6.588A4 4 0 1 1 12 18Z"/>
+                                    <path d="M15 13a4.5 4.5 0 0 1-3-4 4.5 4.5 0 0 1-3 4"/>
+                                    <path d="M17.599 6.5A3 3 0 0 0 13.6 4"/>
+                                    <path d="M6.4 6.5A3 3 0 0 1 10.4 4"/>
+                                </svg>
+                            </div>
+
+                            <h3 class="skill-title">Machine Learning & AI</h3>
+                        </div>
+                        <ul class="skill-list">
+                            <li><span class="bullet">•</span><span>Supervised Learning</span></li>
+                            <li><span class="bullet">•</span><span>Unsupervised Learning</span></li>
+                            <li><span class="bullet">•</span><span>Deep Learning</span></li>
+                            <li><span class="bullet">•</span><span>Deep Learning</span></li>
+                            <li><span class="bullet">•</span><span>Natural Language Processing NLP</span></li>
+                            <li><span class="bullet">•</span><span>Computer Vision</span></li>
+                            <li><span class="bullet">•</span><span>Transfer Learning</span></li>
+                            <li><span class="bullet">•</span><span>Feature Engineering</span></li>
+                            <li><span class="bullet">•</span><span>Model Evaluation</span></li>
+                            <li><span class="bullet">•</span><span>Hyperparameter Tuning</span></li>
+                            <li><span class="bullet">•</span><span>Capstone Project</span></li>
+                        </ul>
+                    </div>
+
+                    <!-- Frameworks & Tools -->
+                    <div class="skill-category">
+                        <div class="skill-header">
+                            <div class="skill-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                                </svg>
+                            </div>
+                            <h3 class="skill-title">Frameworks & Tools</h3>
+                        </div>
+                        <ul class="skill-list">
+                            <li><span class="bullet">•</span><span>Scikit-learn</span></li>
+                            <li><span class="bullet">•</span><span>TensorFlow</span></li>
+                            <li><span class="bullet">•</span><span>Azure AI</span></li>
+                            <li><span class="bullet">•</span><span>PyTorch</span></li>
+                            <li><span class="bullet">•</span><span>Pandas</span></li>
+                            <li><span class="bullet">•</span><span>NumPy</span></li>
+                            <li><span class="bullet">•</span><span>Git & GitHub</span></li>
+                        </ul>
+                    </div>
+
+                    <!-- Deployment & MLOps -->
+                    <div class="skill-category">
+                        <div class="skill-header">
+                            <div class="skill-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect>
+                                    <rect x="9" y="9" width="6" height="6"></rect>
+                                    <line x1="9" y1="1" x2="9" y2="4"></line>
+                                    <line x1="15" y1="1" x2="15" y2="4"></line>
+                                    <line x1="9" y1="20" x2="9" y2="23"></line>
+                                    <line x1="15" y1="20" x2="15" y2="23"></line>
+                                    <line x1="20" y1="9" x2="23" y2="9"></line>
+                                    <line x1="20" y1="14" x2="23" y2="14"></line>
+                                    <line x1="1" y1="9" x2="4" y2="9"></line>
+                                    <line x1="1" y1="14" x2="4" y2="14"></line>
+                                </svg>
+                            </div>
+                            <h3 class="skill-title">Deployment & MLOps</h3>
+                        </div>
+                        <ul class="skill-list">
+                            <li><span class="bullet">•</span><span>Model Deployment</span></li>
+                            <li><span class="bullet">•</span><span>REST APIs</span></li>
+                            <li><span class="bullet">•</span><span>MLOps Tools</span></li>
+                            <li><span class="bullet">•</span><span>MLflow</span></li>
+                            <li><span class="bullet">•</span><span>Hugging Face</span></li>
+                            <li><span class="bullet">•</span><span>Model Monitoring</span></li>
+                            <li><span class="bullet">•</span><span>Retraining Pipelines</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Background Section -->
+        <section id="background" class="background-section">
+            <div class="container-xl">
+                <div class="section-header-left">
+                    <div class="section-badge">
+                        <span class="badge-text">Education & Experience Background</span>
+                    </div>
+                </div>
+
+                <div class="background-grid">
+                    <!-- Education -->
+                    <div class="background-col">
+                        <h2 class="background-heading">EDUCATION</h2>
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-number">1</div>
+                                <div class="timeline-content">
+                                    <h3 class="timeline-title">Bachelor's Degree in Computer Science & Artificial Intelligence</h3>
+                                    <p class="timeline-company">Damietta University</p>
+                                    <p class="timeline-period">2023 – 2027</p>
+                                    <p class="timeline-description">Focus on AI, Data Science, and Machine Learning</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-number">2</div>
+                                <div class="timeline-content">
+                                    <h3 class="timeline-title">AI & Data Science Specialization</h3>
+                                    <p class="timeline-company">Digital Egypt Pioneers Initiative (DEPI)</p>
+                                    <p class="timeline-period">Nov 2025 – Jun 2026</p>
+                                    <p class="timeline-description">200+ training hours in ML, Data Analysis, Python, Statistics, and Model Evaluation</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Experience -->
+                    <div class="background-col">
+                        <h2 class="background-heading">EXPERIENCE</h2>
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-number">1</div>
+                                <div class="timeline-content">
+                                    <h3 class="timeline-title">ML Intern – Microsoft Machine Learning Engineer Track</h3>
+                                    <p class="timeline-company">Digital Egypt Pioneers Initiative (DEPI)</p>
+                                    <p class="timeline-period">Nov 2025 – Jun 2026</p>
+                                    <ul class="timeline-highlights">
+                                        <li><span class="bullet">•</span><span>200+ training hours in Machine Learning and Data Science</span></li>
+                                        <li><span class="bullet">•</span><span>5+ ML projects with up to 92% validation accuracy</span></li>
+                                        <li><span class="bullet">•</span><span>15% performance improvement through feature engineering</span></li>
+                                        <li><span class="bullet">•</span><span>10,000+ records analyzed using Pandas, NumPy, Scikit-learn</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-number">2</div>
+                                <div class="timeline-content">
+                                    <h3 class="timeline-title">Python Programming Trainee</h3>
+                                    <p class="timeline-company">Maharatak Platform</p>
+                                    <p class="timeline-period">Nov 2023</p>
+                                    <ul class="timeline-highlights">
+                                        <li><span class="bullet">•</span><span>15+ Python programs developed</span></li>
+                                        <li><span class="bullet">•</span><span>3 data analysis projects completed</span></li>
+                                        <li><span class="bullet">•</span><span>5+ reusable Python classes designed</span></li>
+                                        <li><span class="bullet">•</span><span>85%+ model accuracy achieved</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section">
+            <div class="container-xl">
+                <div class="section-header">
+                    <div class="section-badge">
+                        <span class="badge-text">Notable Projects</span>
+                    </div>
+                    <h2 class="section-title">Featured Projects</h2>
+                </div>
+
+                <div class="projects-list">
+                    <!-- Project 1 -->
+                    <div class="project-card">
+                        <div class="project-header">
+                            <div class="project-number">01 CUSTOMER CHURN PREDICTION & AUTOMATED RETRAINING SYSTEM</div>
+                        </div>
+
+                        <div class="project-details">
+                            <div class="project-row">
+                                <div class="project-col">
+                                    <h4 class="project-label">Problem Statement</h4>
+                                    <p class="project-text">Predicting customer churn to enable proactive retention strategies and maintain automated model updates in production.</p>
+                                </div>
+                                <div class="project-col">
+                                    <h4 class="project-label">ML Approach</h4>
+                                    <p class="project-text">Built end-to-end ML pipeline with automated retraining mechanisms</p>
+                                </div>
+                            </div>
+
+                            <div class="project-row">
+                                <div class="project-col">
+                                    <h4 class="project-label">Algorithms Used</h4>
+                                    <div class="project-badges">
+                                        <span class="badge badge-outline-secondary">Logistic Regression</span>
+                                        <span class="badge badge-outline-secondary">Random Forest</span>
+                                        <span class="badge badge-outline-secondary">XGBoost</span>
+                                    </div>
+                                </div>
+                                <div class="project-col">
+                                    <h4 class="project-label">Tools & Frameworks</h4>
+                                    <div class="project-badges">
+                                        <span class="badge badge-outline-secondary">Python</span>
+                                        <span class="badge badge-outline-secondary">Scikit-learn</span>
+                                        <span class="badge badge-outline-secondary">Pandas</span>
+                                        <span class="badge badge-outline-secondary">Git</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <h4 class="project-label">Model Metrics</h4>
+                                <div class="metrics-grid">
+                                    <div class="metric-card">
+                                        <p class="metric-label">ACCURACY</p>
+                                        <p class="metric-value">87%</p>
+                                    </div>
+                                    <div class="metric-card">
+                                        <p class="metric-label">PRECISION</p>
+                                        <p class="metric-value">84%</p>
+                                    </div>
+                                    <div class="metric-card">
+                                        <p class="metric-label">RECALL</p>
+                                        <p class="metric-value">85%</p>
+                                    </div>
+                                    <div class="metric-card">
+                                        <p class="metric-label">F1 SCORE</p>
+                                        <p class="metric-value">0.845</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="project-actions">
+                                <button class="btn btn-outline-dark">
+                                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                    </svg>
+                                    GitHub
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card">
+                        <div class="project-header">
+                            <div class="project-number">02 MULTI-CLASS DISEASE CLASSIFICATION USING RANDOM FOREST</div>
+                        </div>
+
+                        <div class="project-details">
+                            <div class="project-row">
+                                <div class="project-col">
+                                    <h4 class="project-label">Problem Statement</h4>
+                                    <p class="project-text">Developing an accurate disease classification system from medical data for early diagnosis support.</p>
+                                </div>
+                                <div class="project-col">
+                                    <h4 class="project-label">ML Approach</h4>
+                                    <p class="project-text">Implemented supervised learning with feature engineering and hyperparameter optimization</p>
+                                </div>
+                            </div>
+
+                            <div class="project-row">
+                                <div class="project-col">
+                                    <h4 class="project-label">Algorithms Used</h4>
+                                    <div class="project-badges">
+                                        <span class="badge badge-outline-secondary">Random Forest</span>
+                                        <span class="badge badge-outline-secondary">Feature Engineering</span>
+                                        <span class="badge badge-outline-secondary">Cross-validation</span>
+                                    </div>
+                                </div>
+                                <div class="project-col">
+                                    <h4 class="project-label">Tools & Frameworks</h4>
+                                    <div class="project-badges">
+                                        <span class="badge badge-outline-secondary">Python</span>
+                                        <span class="badge badge-outline-secondary">Scikit-learn</span>
+                                        <span class="badge badge-outline-secondary">NumPy</span>
+                                        <span class="badge badge-outline-secondary">Matplotlib</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <h4 class="project-label">Model Metrics</h4>
+                                <div class="metrics-grid">
+                                    <div class="metric-card">
+                                        <p class="metric-label">ACCURACY</p>
+                                        <p class="metric-value">92%</p>
+                                    </div>
+                                    <div class="metric-card">
+                                        <p class="metric-label">PRECISION</p>
+                                        <p class="metric-value">90%</p>
+                                    </div>
+                                    <div class="metric-card">
+                                        <p class="metric-label">RECALL</p>
+                                        <p class="metric-value">91%</p>
+                                    </div>
+                                    <div class="metric-card">
+                                        <p class="metric-label">F1 SCORE</p>
+                                        <p class="metric-value">0.905</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="project-actions">
+                                <button class="btn btn-outline-dark">
+                                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                    </svg>
+                                    GitHub
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-card">
+                        <div class="project-header">
+                            <div class="project-number">03 MACHINE LEARNING MODEL PERFORMANCE ANALYSIS</div>
+                        </div>
+
+                        <div class="project-details">
+                            <div class="project-row">
+                                <div class="project-col">
+                                    <h4 class="project-label">Problem Statement</h4>
+                                    <p class="project-text">Comprehensive analysis and comparison of multiple ML models to identify optimal solutions for business problems.</p>
+                                </div>
+                                <div class="project-col">
+                                    <h4 class="project-label">ML Approach</h4>
+                                    <p class="project-text">Statistical analysis with visualization of model metrics and performance trade-offs</p>
+                                </div>
+                            </div>
+
+                            <div class="project-row">
+                                <div class="project-col">
+                                    <h4 class="project-label">Algorithms Used</h4>
+                                    <div class="project-badges">
+                                        <span class="badge badge-outline-secondary">SVM</span>
+                                        <span class="badge badge-outline-secondary">Decision Trees</span>
+                                        <span class="badge badge-outline-secondary">Ensemble Methods</span>
+                                    </div>
+                                </div>
+                                <div class="project-col">
+                                    <h4 class="project-label">Tools & Frameworks</h4>
+                                    <div class="project-badges">
+                                        <span class="badge badge-outline-secondary">Python</span>
+                                        <span class="badge badge-outline-secondary">Matplotlib</span>
+                                        <span class="badge badge-outline-secondary">Pandas</span>
+                                        <span class="badge badge-outline-secondary">Scikit-learn</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <h4 class="project-label">Model Metrics</h4>
+                                <div class="metrics-grid">
+                                    <div class="metric-card">
+                                        <p class="metric-label">ACCURACY</p>
+                                        <p class="metric-value">89%</p>
+                                    </div>
+                                    <div class="metric-card">
+                                        <p class="metric-label">PRECISION</p>
+                                        <p class="metric-value">88%</p>
+                                    </div>
+                                    <div class="metric-card">
+                                        <p class="metric-label">RECALL</p>
+                                        <p class="metric-value">87%</p>
+                                    </div>
+                                    <div class="metric-card">
+                                        <p class="metric-label">F1 SCORE</p>
+                                        <p class="metric-value">0.875</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="project-actions">
+                                <button class="btn btn-outline-dark">
+                                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                    </svg>
+                                    GitHub
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container-md">
+                <div class="contact-content">
+                    <div class="contact-header">
+                        <h2 class="contact-title">Get In Touch</h2>
+                        <p class="contact-subtitle">I'm open to collaboration, internships, and exciting ML projects. Feel free to reach out!</p>
+                    </div>
+
+                    <div class="contact-cards">
+                        <!-- Phone -->
+                        <a href="tel:+201027164530" class="contact-card">
+                            <div class="contact-card-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                                </svg>
+                            </div>
+                            <div class="contact-card-text">
+                                <p class="contact-card-label">Phone / WhatsApp</p>
+                                <p class="contact-card-value">+20 102 7164530</p>
+                            </div>
+                        </a>
+
+                        <!-- Email -->
+                        <a href="mailto:ammarelnady63@gmail.com" class="contact-card">
+                            <div class="contact-card-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                    <polyline points="22,6 12,13 2,6"></polyline>
+                                </svg>
+                            </div>
+                            <div class="contact-card-text">
+                                <p class="contact-card-label">Email</p>
+                                <p class="contact-card-value">ammarelnady63@gmail.com</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="contact-social">
+                        <p class="contact-social-text">Connect with me on social platforms</p>
+                        <div class="contact-social-buttons">
+                            <a href="https://www.linkedin.com/in/ammar-nady" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                    <rect x="2" y="9" width="4" height="12"></rect>
+                                    <circle cx="4" cy="4" r="2"></circle>
+                                </svg>
+                                LinkedIn
+                            </a>
+                            <a href="https://github.com/ammarelnady" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                </svg>
+                                GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container-xl">
+                <p class="footer-text">
+                    © <span id="currentYear">2026</span> Ammar Ahmed Elnady. Building intelligent systems through machine learning.
+                </p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="main.js"></script>
+</body>
+</html>
