@@ -176,7 +176,7 @@ body {
 }
 
 .hero-description {
-  font-size: 1rem;
+  font-size: 1.25rem;
   line-height: 1.75;
   color: var(--muted-foreground);
   max-width: 40rem;
@@ -235,10 +235,11 @@ body {
 }
 
 .badge-outline {
+    font-size: 1.25rem;
   border-color: var(--primary);
   color: var(--primary);
   background-color: transparent;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .badge-outline-secondary {
