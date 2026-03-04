@@ -235,7 +235,7 @@ body {
 }
 
 .badge-outline {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
   border-color: var(--primary);
   color: var(--primary);
   background-color: transparent;
