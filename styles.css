@@ -722,7 +722,8 @@ body {
 
   font-size: 3rem;
   font-weight: 700;
-  color: var(--foreground);
+  /* color: var(--foreground); */
+  color: rgba(255, 195, 0, 0.9);
 }
 
 .contact-subtitle {
@@ -828,12 +829,14 @@ body {
 }
 
 /* Brand Colors */
-.btn-linkedin { color:#0A66C2; border-color:#0A66C2; }
+.btn-linkedin { color:#55a2ef; border-color:#0A66C2; }
 .btn-github   { color:#fff; border-color:#fff; }
 .btn-upwork   { color:#6FDA44; border-color:#6FDA44; }
 .btn-khamsat  { color:#FF9800; border-color:#FF9800; }
-.btn-mostaql  { color:#1E88E5; border-color:#1E88E5; }
+.btn-mostaql  { color:#56a6ed; border-color:#1E88E5; }
 .btn-kafiil   { color:#2ECC71; border-color:#2ECC71; }
+.btn-nafezly   { color:#3b95e4; border-color:#108eee; }
+.btn-freelancer   { color:#2e8acc; border-color:#2eaacc; }
 
 /* Hover Effect */
 .btn-outline:hover {
@@ -847,6 +850,8 @@ body {
 .btn-khamsat:hover  { background:#FF9800; }
 .btn-mostaql:hover  { background:#1E88E5; color:#fff; }
 .btn-kafiil:hover   { background:#2ECC71; }
+.btn-nafezly:hover   { background:#e7ecef; color:#3596ea;}
+.btn-freelancer:hover   { background:#f6fafb; color:#3a90e7;}
 
 /* Footer */
 .footer {
