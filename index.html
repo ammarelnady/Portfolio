@@ -370,8 +370,7 @@ Delivering end-to-end MLOps solutions to ensure peak algorithmic performance in 
                                 <div class="project-col">
                                     <h4 class="project-label">Algorithms Used</h4>
                                     <div class="project-badges">
-                                        <span class="badge badge-outline-secondary">Logistic Regression</span>
-                                        <span class="badge badge-outline-secondary">Random Forest</span>
+
                                         <span class="badge badge-outline-secondary">XGBoost</span>
                                     </div>
                                 </div>
@@ -391,19 +390,23 @@ Delivering end-to-end MLOps solutions to ensure peak algorithmic performance in 
                                 <div class="metrics-grid">
                                     <div class="metric-card">
                                         <p class="metric-label">ACCURACY</p>
-                                        <p class="metric-value">87%</p>
+                                        <p class="metric-value">92%</p>
                                     </div>
                                     <div class="metric-card">
-                                        <p class="metric-label">PRECISION</p>
-                                        <p class="metric-value">84%</p>
+                                        <p class="metric-label">AVG-PRECISION</p>
+                                        <p class="metric-value">77%</p>
                                     </div>
                                     <div class="metric-card">
-                                        <p class="metric-label">RECALL</p>
-                                        <p class="metric-value">85%</p>
+                                        <p class="metric-label">AVG-RECALL</p>
+                                        <p class="metric-value">88%</p>
                                     </div>
                                     <div class="metric-card">
-                                        <p class="metric-label">F1 SCORE</p>
-                                        <p class="metric-value">0.845</p>
+                                        <p class="metric-label">AVG-F1 SCORE</p>
+                                        <p class="metric-value">81%</p>
+                                    </div>
+                                    <div class="metric-card">
+                                        <p class="metric-label">ROC-AUC SCORE</p>
+                                        <p class="metric-value">95%</p>
                                     </div>
                                 </div>
                             </div>
@@ -427,57 +430,86 @@ Delivering end-to-end MLOps solutions to ensure peak algorithmic performance in 
 
                         <div class="project-details">
                             <div class="project-row">
-                                <div class="project-col">
-                                    <h4 class="project-label">Problem Statement</h4>
-                                    <p class="project-text">Developing an accurate disease classification system from medical data for early diagnosis support.</p>
-                                </div>
-                                <div class="project-col">
-                                    <h4 class="project-label">ML Approach</h4>
-                                    <p class="project-text">Implemented supervised learning with feature engineering and hyperparameter optimization</p>
-                                </div>
-                            </div>
+
+                        <div class="project-col">
+                            <h4 class="project-label">Problem Statement</h4>
+                            <p class="project-text">
+                                Traditional PDF chatbots are limited to document-based answers and
+                                cannot effectively handle recent information or external research.
+                                The project aimed to build an intelligent research assistant that
+                                dynamically combines paper content with external web knowledge.
+                            </p>
+                        </div>
+
+                        <div class="project-col">
+                            <h4 class="project-label">NLP Approach</h4>
+                            <p class="project-text">
+                                User Query → Classification → Routing → RAG / Web / Hybrid Search
+                                → Context Integration → LLM Response
+                                <br><br>
+                                The routing is dynamically determined from the user's query rather
+                                than relying solely on fixed rules.
+                            </p>
+                        </div>
+
+                        <div class="project-col">
+                            <h4 class="project-label">My Contribution</h4>
+                            <p class="project-text">
+                                Developed the <strong>Research Agent</strong> for query understanding,
+                                routing, and web search.
+                                <br><br>
+                                • Implemented an <strong>LLM-based Query Classifier</strong>.
+                                <br>
+                                • Built dynamic <strong>RAG / WEB / HYBRID Query Routing</strong>.
+                                <br>
+                                • Developed <strong>Search Query Preparation</strong>.
+                                <br>
+                                • Integrated <strong>DuckDuckGo</strong> and <strong>OpenAlex</strong>
+                                with fallback mechanisms.
+                                <br>
+                                • Preserved <strong>source provenance</strong> for traceable citations.
+                                <br>
+                                • Implemented automated tests for routing, web search, and source handling.
+                                <br>
+                                • Integrated the agent with the existing <strong>RAG and LLM pipeline</strong>
+                                through defined API contracts.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+
+
 
                             <div class="project-row">
                                 <div class="project-col">
                                     <h4 class="project-label">Algorithms Used</h4>
                                     <div class="project-badges">
-                                        <span class="badge badge-outline-secondary">Random Forest</span>
-                                        <span class="badge badge-outline-secondary">Feature Engineering</span>
-                                        <span class="badge badge-outline-secondary">Cross-validation</span>
+                                        <span class="badge badge-outline-secondary">Qwen2.5-72B-Instruct</span>
+                                                <h4 class="project-text">used as the LLM for query classification, reasoning, and language generation.</h4>
+                                        <span class="badge badge-outline-secondary">all-MiniLM-L6-v2</span>
+                                                <h4 class="project-text">used as the embedding model for semantic search and retrieval of relevant information from the PDF documents.</h4>
                                     </div>
                                 </div>
                                 <div class="project-col">
                                     <h4 class="project-label">Tools & Frameworks</h4>
                                     <div class="project-badges">
                                         <span class="badge badge-outline-secondary">Python</span>
-                                        <span class="badge badge-outline-secondary">Scikit-learn</span>
-                                        <span class="badge badge-outline-secondary">NumPy</span>
-                                        <span class="badge badge-outline-secondary">Matplotlib</span>
+                                        <span class="badge badge-outline-secondary">Hugging Face</span>
+                                        <span class="badge badge-outline-secondary">Hugging Face Inference API</span>
+                                        <span class="badge badge-outline-secondary">FastAPI</span>
+                                        <span class="badge badge-outline-secondary">DuckDuckGo Search</span>
+                                        <span class="badge badge-outline-secondary">OpenAlex API</span>
+                                        <span class="badge badge-outline-secondary">FastAPI</span>
+                                        <span class="badge badge-outline-secondary">Pydantic</span>
+                                        <span class="badge badge-outline-secondary">Git & GitHub</span>
+                                        <span class="badge badge-outline-secondary">Pytest</span>
                                     </div>
                                 </div>
                             </div>
 
-                            <div>
-                                <h4 class="project-label">Model Metrics</h4>
-                                <div class="metrics-grid">
-                                    <div class="metric-card">
-                                        <p class="metric-label">ACCURACY</p>
-                                        <p class="metric-value">92%</p>
-                                    </div>
-                                    <div class="metric-card">
-                                        <p class="metric-label">PRECISION</p>
-                                        <p class="metric-value">90%</p>
-                                    </div>
-                                    <div class="metric-card">
-                                        <p class="metric-label">RECALL</p>
-                                        <p class="metric-value">91%</p>
-                                    </div>
-                                    <div class="metric-card">
-                                        <p class="metric-label">F1 SCORE</p>
-                                        <p class="metric-value">0.905</p>
-                                    </div>
-                                </div>
-                            </div>
+
 
                             <div class="project-actions">
                                 <a href="https://github.com/ammarelnady/Paper-PDF-Intelligent-Research-Assistant.git" class="btn btn-outline-dark d-inline-flex align-items-center gap-2" target="_blank" rel="noopener noreferrer">
@@ -490,76 +522,7 @@ Delivering end-to-end MLOps solutions to ensure peak algorithmic performance in 
                         </div>
                     </div>
 
-                    <!-- Project 3 -->
-                    <div class="project-card">
-                        <div class="project-header">
-                            <div class="project-number">03 MACHINE LEARNING MODEL PERFORMANCE ANALYSIS</div>
-                        </div>
-
-                        <div class="project-details">
-                            <div class="project-row">
-                                <div class="project-col">
-                                    <h4 class="project-label">Problem Statement</h4>
-                                    <p class="project-text">Comprehensive analysis and comparison of multiple ML models to identify optimal solutions for business problems.</p>
-                                </div>
-                                <div class="project-col">
-                                    <h4 class="project-label">ML Approach</h4>
-                                    <p class="project-text">Statistical analysis with visualization of model metrics and performance trade-offs</p>
-                                </div>
-                            </div>
-
-                            <div class="project-row">
-                                <div class="project-col">
-                                    <h4 class="project-label">Algorithms Used</h4>
-                                    <div class="project-badges">
-                                        <span class="badge badge-outline-secondary">SVM</span>
-                                        <span class="badge badge-outline-secondary">Decision Trees</span>
-                                        <span class="badge badge-outline-secondary">Ensemble Methods</span>
-                                    </div>
-                                </div>
-                                <div class="project-col">
-                                    <h4 class="project-label">Tools & Frameworks</h4>
-                                    <div class="project-badges">
-                                        <span class="badge badge-outline-secondary">Python</span>
-                                        <span class="badge badge-outline-secondary">Matplotlib</span>
-                                        <span class="badge badge-outline-secondary">Pandas</span>
-                                        <span class="badge badge-outline-secondary">Scikit-learn</span>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div>
-                                <h4 class="project-label">Model Metrics</h4>
-                                <div class="metrics-grid">
-                                    <div class="metric-card">
-                                        <p class="metric-label">ACCURACY</p>
-                                        <p class="metric-value">89%</p>
-                                    </div>
-                                    <div class="metric-card">
-                                        <p class="metric-label">PRECISION</p>
-                                        <p class="metric-value">88%</p>
-                                    </div>
-                                    <div class="metric-card">
-                                        <p class="metric-label">RECALL</p>
-                                        <p class="metric-value">87%</p>
-                                    </div>
-                                    <div class="metric-card">
-                                        <p class="metric-label">F1 SCORE</p>
-                                        <p class="metric-value">0.875</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="project-actions">
-                                <button class="btn btn-outline-dark">
-                                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
-                                    </svg>
-                                    GitHub
-                                </button>
-                            </div>
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
         </section>
